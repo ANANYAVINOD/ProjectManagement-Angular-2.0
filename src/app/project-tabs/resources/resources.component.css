@@ -5,3 +5,7 @@
 .icons {
     width: 45px;
 }
+
+.table-responsive td {
+    color: #ffffff;
+}

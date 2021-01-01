@@ -40,6 +40,7 @@ hr {
     cursor: pointer;
     width: 100%;
     margin: 0 auto;
+    background-color: #264E58;
 }
 
 .card-holder .row:hover {
@@ -50,7 +51,7 @@ hr {
 
 .card-holder .row:hover .circular {
     color: #464648;
-    background: linear-gradient(to top, #d84981 40%, #fff 1%) !important;
+    background: linear-gradient(to top, #4E4A41 40%, #fff 1%) !important;
 }
 
 .add-project-btn {
@@ -78,6 +79,7 @@ hr {
     padding: 9px 6px;
     border-radius: 50%;
     background-color: #fff;
+    color: #464648;
 }
 
 .select {
@@ -87,4 +89,40 @@ hr {
 
 .select .inner {
     color: #464648;
+}
+
+@media (max-width:1250px) {
+    .circular {
+        height: 55px;
+        width: 55px;
+    }
+
+    .inner {
+        padding: 9px 5px;
+    }
+
+    .card-holder .row {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:1150px) {
+    .circular {
+        display: none !important;
+    }
+
+    .head-text-logo p {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 855px)  {
+    .head-text-logo p {
+        font-size: 100%;
+    }
+
+    h1 {
+        font-size: 125% !important;
+    }
 }

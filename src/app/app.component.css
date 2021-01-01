@@ -1,6 +1,6 @@
 html, 
 body
-{font-family: "Manrope-Medium", Arial, Helvetica; color: #464648; font-weight: 300; font-size: 16px; text-rendering: optimizeLegibility;}
+{font-family: "Manrope-Medium", Arial, Helvetica; color: #ffffff; font-weight: 300; font-size: 16px; text-rendering: optimizeLegibility;}
 
 input[type="date"],
 input[type="text"],
@@ -27,7 +27,7 @@ select {
 }
 
 .bg-primary {
-    background-color:#fff !important;
+    background-color: #89BDBB !important;
 }
 
 .bg-success {
@@ -43,7 +43,13 @@ h1 {
 }
 
 .nav-link {
-    color: #000000;
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    background-color: #49d8a0 !important;
+    box-shadow: 1px -1px 8px rgba(0, 0, 0, 0.3);
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -53,7 +59,8 @@ h1 {
 }
 
 .tab-height {
-    overflow-y: scroll;
+   /* overflow-y: scroll;*/
+    background-color: #264E58 !important;
 }
 
 .edit-icon:hover {
@@ -81,13 +88,13 @@ th {
 .btn-secondary {
     color: #000000;
     background-color: #fff !important;
-    border-color: #d84981 !important;
+    /*border-color: #d84981 !important;*/
     transition: all 0.2s ease;
 }
 
 .btn-secondary:hover {
     color: #fff;
-    background-color: #d84981 !important;
+    background-color: #89BDBB !important;
     box-shadow: 0 0 10px #00000050;
 }
 
@@ -191,4 +198,15 @@ th {
     font-weight: 500;
     font-style: normal;
     font-display: swap;
+}
+
+@media (max-width: 900px)  {
+    h1 {
+        font-size: 125% !important;
+    }
+
+    .project-form form {
+        max-width: 65%;
+    }
+    
 }

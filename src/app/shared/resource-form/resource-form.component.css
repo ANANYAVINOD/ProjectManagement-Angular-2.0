@@ -5,3 +5,7 @@ input.ng-touched.ng-invalid {
 .form-control {
     height: calc(1.3em + .65rem + 2px);
 }
+
+.res-form {
+    color: #000000;
+}
